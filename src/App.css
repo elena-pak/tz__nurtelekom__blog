@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  margin-top: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.post{
+  display: flex;
+  padding: 15px;
+  border: 1px solid deeppink;
+  margin-top: 15px;
+  width: 1000px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.postList{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.postFilter{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.posts__myButton{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.about{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__content{
+  margin-top: 30px;
+  border: 1px solid deeppink;
+  padding: 20px;
+  width: 400px;
+
+}
+
+.about__content span{
+  margin-top: 50px;
+}
+
+.about__text{
+  margin-top: 50px;
+  width: 1000px;
+
+}
+
+
+
+.imgList__item{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+
+}
+
+.imgItem{
+
+}
+.imgItem__img{
+  width: 300px;
 }
